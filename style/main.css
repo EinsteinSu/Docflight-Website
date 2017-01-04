@@ -1,0 +1,40 @@
+div.nav {
+    height: 182px;
+    background-color: gold;
+}
+
+div.nav img {
+    hight: auto;
+    width: 20%;
+}
+
+div.nav ul {
+    list-style-type: none;
+    margin-left: 400px;
+    margin-top: 50px; /*calculate by the image height and width*/
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+div.nav ul li {
+    float: left;
+}
+
+div.nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px 16px;
+}
+
+div.nav ul li a:hover:not(.active) {
+    background-color: blue;
+}
+
+div.nav ul li a:active {
+    background-color: white;
+}
