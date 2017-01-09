@@ -1,22 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+/*http://codepen.io/bootstrapped/pen/KwYGwq*/
 div.nav {
-    height: 182px;
     background-color: gold;
+    display: block;
 }
 
 div.nav img {
     hight: auto;
-    width: 20%;
+    max-width: 20%;
 }
 
 div.nav ul {
     list-style-type: none;
-    margin-left: 400px;
-    margin-top: 50px; /*calculate by the image height and width*/
-    padding: 0;
     overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    width: 80%;
+    float: right;
+    line-height: 100px;
+    position: relative;
 }
 
 div.nav ul li {
