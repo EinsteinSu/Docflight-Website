@@ -1,43 +1,30 @@
-* {
-    box-sizing: border-box;
+body {
+
 }
 
-/*http://codepen.io/bootstrapped/pen/KwYGwq*/
-div.nav {
-    background-color: gold;
-    display: block;
+.docflightnav-background {
+    background-color: gray;
 }
 
-div.nav img {
-    hight: auto;
-    max-width: 20%;
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand>img {
+    height: 100%;
+    padding: 15px;
+    width: auto;
 }
 
-div.nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    width: 80%;
-    float: right;
-    line-height: 100px;
-    position: relative;
+.docflightnav .navbar-brand {
+    height: 80px;
 }
 
-div.nav ul li {
-    float: left;
+.docflightnav .nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-div.nav ul li a {
-    display: block;
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 14px 16px;
-}
-
-div.nav ul li a:hover:not(.active) {
-    background-color: blue;
-}
-
-div.nav ul li a:active {
-    background-color: white;
+.docflightnav .navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
 }
