@@ -4,43 +4,225 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/screen.css">
+    <link rel="stylesheet" media="screen and (max-width:680px)" href="style/device.css">
     <title>Docflight</title>
 </head>
 <body>
-<div class="docflightnav">
-    <nav class="navbar navbar-static-top navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="img/footer-logo.png" alt="Docflight">
+<ul id="topnav" class="nav">
+    <li>
+        <a href="#" class="brand">
+            <img src="img/header-logo.png"/>
+        </a>
+    </li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Doctors</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#" class="button">
+        <div id="login">
+            Login
+        </div>
+    </a></li>
+    <li>
+        <a href="#" class="button">
+            <div id="lang">
+                中
+            </div>
+        </a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" style="font-size:15px;" onclick="showMenu()">☰</a>
+    </li>
+</ul>
+<div class="video">
+    <!--<video src="#"> use image instead of video-->
+
+    <!--</video>-->
+    <img src="img/video.jpg">
+    <div class="container slogan">
+        <p>Full Medical Service</p>
+        <p>Tailored to Your Needs</p>
+        <button class="button">Register</button>
+    </div>
+</div>
+<div class="buttongroup">
+    <button>
+        Services
+    </button>
+    <button>
+        Specialties
+    </button>
+    <button>
+        Advantages
+    </button>
+</div>
+<div class="imgbuttongroup">
+    <button>
+        <div class="arrow-up"></div>
+        <img src="img/icons/video-chat3.png">
+        Consultation
+    </button>
+    <button>
+        <img src="img/icons/writing-letter3.png">
+        Paper Diagnose
+    </button>
+    <button id="travel">
+        <img src="img/icons/travel3.png">
+        U.S Treatment
+    </button>
+    <button>
+        <img src="img/icons/doctor3.png">
+        Family Doctor
+    </button>
+</div>
+<div class="imgbackground advantages">
+    <div class="container strike">
+        <span>Advantages</span>
+    </div>
+</div>
+<div class="lightBlue">
+    <div class="container strike">
+        <span>Doctors</span>
+    </div>
+</div>
+<div class="imgbackground hospitals">
+    <div class="container strike">
+        <span>hospitals</span>
+    </div>
+</div>
+<div class="lightBlue">
+    <div class="container strike">
+        <span>About Us</span>
+    </div>
+    <div class="container strike">
+        <span>Testmonies</span>
+    </div>
+</div>
+<div class="imgbackground news">
+    <div class="container strike">
+        <span>News</span>
+    </div>
+    <div class="container">
+        <table>
+            <tr>
+                <td class="td-left">
+                    2016.11.15
+                </td>
+                <td class="td-right">
+                    Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">
+                    2016.11.12
+                </td>
+                <td class="td-right">
+                    Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">
+                    2016.10.18
+                </td>
+                <td class="td-right">
+                    Aenean sed diam risus. Duis eu cursus eros. Sed sit amet tempor mauris,
+                    Ut gravida imperdiet massa sed pretium.
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">
+                    2016.10.12
+                </td>
+                <td class="td-right">
+                    Morbi posuere justo at ultrices ullamcorper. Nulla neque augue, suscipit a
+                    ultricies sed, posuere id dui.
+                </td>
+            </tr>
+            <tr>
+                <td class="td-left">
+                    2016.10.06
+                </td>
+                <td class="td-right">
+                    Nam iaculis tincidunt purus at ullamcorper. Vestibulum mauris massa.
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container strike" style="margin-top: 20px;">
+        <span>Medias</span>
+    </div>
+    <div class="container">
+        <div style="border: 1px solid black; margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left">
+        </div>
+
+        <div style="border: 1px solid black;margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+        <div style="border: 1px solid black; margin-top: 5px;background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+        <div style="border: 1px solid black;margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+
+        <div style="border: 1px solid black; margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left">
+        </div>
+
+        <div style="border: 1px solid black;margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+        <div style="border: 1px solid black; margin-top: 5px;background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+        <div style="border: 1px solid black;margin-top: 5px; background-color: black;opacity: 0.5; width: 23.9999%;height:200px;float: left;margin-left: 10px;">
+        </div>
+    </div>
+</div>
+<div>
+    <div class="lightBlue footer">
+        <div class="footeritem">
+            <img src="img/footer-logo.png" alt="">
+            <div>
+                <a>
+                    <img src="img/icons/email3.png" alt="">
+                    315 W 36th St, New York, NY10018</a>
+            </div>
+
+            <div>
+                <a>
+                    <img src="img/icons/web3.png" alt="">
+                    Docflight.com
                 </a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Doctors</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li ><a href="#">Login</a></li>
-                    <li><a href="#">中</a></li>
-                </ul>
+            <div>
+                <a>
+                    <img src="img/icons/location3.png" alt="">
+                    patient@docflight.com
+                </a>
             </div>
         </div>
-    </nav>
+        <div class="footeritem">
+            <h2>Enter your email here to receive coupons</h2>
+            <div style="width:100%; display: inline-block">
+                <div style="width: 80%; margin: auto;  position:static">
+                    <input type="text"/>
+                    <button>Send</button>
+                </div>
+            </div>
+            <div style="margin: auto;text-align: center">
+                facebook/twitter/linkin
+            </div>
+        </div>
+        <div class="footeritem">
+            <div class="qr">
+                <div class="center-uppercase">PUBLIC ACCOUNT</div>
+                <img src="img/qr1公共430.jpg" alt="" class="fixed-width">
+            </div>
+            <div class="qr">
+                <div class="center-uppercase">CONSULTANT</div>
+                <img src="img/qr2顾问430.jpg" alt="" class="fixed-width">
+            </div>
+        </div>
+    </div>
 </div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="js/ui-responsive.js"></script>
 </body>
 </html>

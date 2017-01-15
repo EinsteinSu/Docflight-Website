@@ -1,0 +1,392 @@
+body {
+    /*define the fonts*/
+    margin: 0;
+}
+
+/*all buttons opacity changes to 65% when being hovered over*/
+button:hover {
+    opacity: 0.65;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.center-uppercase {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*container*/
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/*navigation bar*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: inline-block;
+    color: gray;
+    text-align: center;
+    padding: 50px 35px 5px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.nav li a.brand {
+    padding: 0;
+}
+
+ul.nav li a.brand:hover {
+    background-color: transparent;
+
+}
+
+ul.nav li img {
+    float: left;
+    display: inline-block;
+    height: 90px;
+    width: auto;
+}
+
+ul.nav li a:hover {
+    background-color: #6dc6d4;
+    opacity: 0.65;
+}
+
+ul.nav li.icon a {
+    padding: 35px 16px;
+}
+
+ul.nav li.icon {
+    display: none;
+}
+
+/* login and language buttons*/
+ul.nav li a.button {
+    padding-top: 45px;
+}
+
+ul.nav li a.button:hover {
+    background-color: transparent;
+
+}
+
+#login {
+    padding: 5px;
+    background-color: #805eea;
+    color: white;
+}
+
+#lang {
+    padding: 5px;
+    background-color: #6dc6d4;
+    color: white;
+}
+
+/*video*/
+div.video {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -5px;
+}
+
+div.video img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+div.video div.slogan {
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    width: 500px;
+    text-align: center;
+    text-shadow: 5px 5px 10px gray;
+}
+
+div.video button {
+    background-color: #805eea;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/*button group*/
+div.buttongroup {
+    height: 100px;
+    overflow: hidden
+}
+
+div.buttongroup button {
+    height: 100%;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    background-color: #6dc6d4;
+    text-align: center;
+    padding: 15px 32px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/*image button group*/
+
+div.imgbuttongroup {
+    height: 120px;
+    position: relative;
+}
+
+div.imgbuttongroup button {
+    height: 100%;
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color: #dfeef3;
+    text-align: center;
+    padding: 15px 32px;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+div.imgbuttongroup button:hover {
+    text-decoration: underline;
+}
+
+div.imgbuttongroup button img {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #dfeef3;
+    position: absolute;
+    left: 50%;
+    top: -30px;
+}
+
+div.imgbackground {
+    background-size: 100% auto;
+    height: 400px; /*just for testing*/
+}
+
+div.lightBlue {
+    background-color: #dfeef3;
+    height: 400px; /*just for testing*/
+}
+
+/*advantages*/
+
+div.advantages {
+    background-image: url(../img/ser4.png);
+}
+
+div.advantages .imgcontainer {
+
+}
+
+div.advantages .imgcontainer * {
+    box-sizing: border-box;
+}
+
+.advantages [class^="responsive"] {
+    width: 100%;
+    height: 400px;
+}
+
+.advantages .responsive-larger {
+    float: left;
+    width: 59%;
+}
+
+.advantages .responsive {
+    float: left;
+    width: 39%;
+}
+
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: black;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+/*doctors*/
+
+/*hospitals*/
+div.hospitals {
+    background-image: url(../img/ser4.png);
+}
+
+/*news and medias*/
+div.news {
+    background-image: url(../img/ser4.png);
+    height: 900px;
+}
+
+div.news table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 30px;
+}
+
+div.news td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+div.news td-left {
+    width: 30%;
+}
+
+div.news td-right {
+    width: 70%;
+}
+
+/*footer*/
+div.footer {
+
+}
+
+div.footeritem {
+    width: 33.333%;
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+div.footeritem img {
+    width: 100%;
+    height: auto;
+}
+
+div.footeritem div {
+    margin: 10px 15px;
+}
+
+div.footeritem div img {
+    height: 16px;
+    width: 16px;
+    padding-right: 10px;
+}
+
+div.footeritem h2 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+div.footeritem input[type=text] {
+    width: 60%;
+    font-size: 30px;
+    float: left;
+    background-color: #6dc6d4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-left: 15%;
+}
+
+div.footeritem button {
+    background-color: #805eea;
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    float: left;
+    width: 20%;
+    margin-left: -20%;
+}
+
+div.footeritem div.qr {
+    width: 35%;
+    float: left;
+    margin-top: 10%;
+}
+
+div.footeritem div.qr img {
+    width: 100%;
+    height: auto;
+}
