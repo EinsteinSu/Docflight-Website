@@ -121,7 +121,6 @@ ul.nav li a.button:hover {
 div.video {
     position: relative;
     overflow: hidden;
-    margin-bottom: -5px;
     height: 800px;
 }
 
@@ -149,7 +148,6 @@ div.video div.slogan {
     height:50%;
     text-align: center;
     text-shadow: 5px 5px 10px gray;
-    opacity: 1;
 }
 
 div.video button {
