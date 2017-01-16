@@ -66,6 +66,7 @@ ul.nav li a {
 }
 
 ul.nav li a.brand {
+    margin-left: 20px;
     padding: 0;
 }
 
@@ -121,23 +122,34 @@ div.video {
     position: relative;
     overflow: hidden;
     margin-bottom: -5px;
+    height: 800px;
 }
 
-div.video img {
+div.video:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/shutterstock_82759033.jpg) left top no-repeat;
+    background-size: 100% auto;
     width: 100%;
-    height: auto;
-    opacity: 0.3;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
 }
 
 div.video div.slogan {
-    top: 20%;
-    left: 10%;
-    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+    position: relative;
     font-size: 50px;
     color: white;
-    width: 500px;
+    width: 50%;
+    height:50%;
     text-align: center;
     text-shadow: 5px 5px 10px gray;
+    opacity: 1;
 }
 
 div.video button {
