@@ -12,153 +12,113 @@ h2 {
     text-transform: uppercase;
 }
 
-
-/*video*/
-div.video {
-    position: relative;
-    overflow: hidden;
-    height: 800px;
-}
-
-div.video:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(../img/shutterstock_82759033.jpg) left top no-repeat;
+/*slogan*/
+.slogan {
+    background: url(../img/slogan.jpg) left top no-repeat;
     background-size: 100% auto;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: -1;
+    height: 500px;
+    opacity: 0.6;
 }
 
-div.video div.slogan {
-    margin-top: 20%;
-    margin-left: 10%;
+.slogan-panel {
+    height: 250px;
     position: relative;
-    font-size: 50px;
-    color: white;
-    width: 50%;
-    height: 50%;
+}
+
+.slogan-content {
     text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.slogan-content > p {
     text-shadow: 5px 5px 10px gray;
 }
 
-div.video button {
-    background-color: #805eea;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    cursor: pointer;
-}
-
 /*button group*/
-div.buttongroup {
-    height: 100px;
-    overflow: hidden
+.buttongroup {
+    position: relative;
 }
 
-div.buttongroup button {
-    height: 100%;
-    width: 33.33%;
-    float: left;
-    position: relative;
-    background-color: #6dc6d4;
+.buttongroup > div {
+    padding: 0px 1px;
+}
+
+.buttongroup button {
+    width: 100%;
     text-align: center;
     padding: 15px 32px;
     border: none;
     text-decoration: none;
     display: inline-block;
-    font-size: 32px;
     cursor: pointer;
+}
+
+.buttongroup-buttons button {
+    background-color: #6dc6d4;
+    height: 90px;
+    font-size: 32px;
     text-transform: uppercase;
 }
 
-/*image button group*/
-
-div.imgbuttongroup {
-    height: 120px;
-    position: relative;
-}
-
-div.imgbuttongroup button {
-    height: 100%;
-    width: 25%;
-    float: left;
-    position: relative;
+.imgbuttons button {
     background-color: #dfeef3;
-    text-align: center;
-    padding: 15px 32px;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 32px;
-    cursor: pointer;
+    height: 90px;
+    font-size: 20px;
 }
 
-div.imgbuttongroup button:hover {
+.imgbuttons button:hover {
     text-decoration: underline;
 }
 
-div.imgbuttongroup button img {
-    height: 40px;
-    padding-right: 5px;
+.imgbuttons span img {
+    height: 24px;
 }
 
 .arrow-up {
     width: 0;
     height: 0;
-    border-left: 30px solid transparent;
-    border-right: 30px solid transparent;
-    border-bottom: 30px solid #dfeef3;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid #dfeef3;
     position: absolute;
     left: 50%;
-    top: -30px;
+    top: -25px;
 }
 
 div.imgbackground {
     background-size: 100% auto;
-    height: 400px; /*just for testing*/
 }
 
 div.lightBlue {
     background-color: #dfeef3;
-    height: 400px; /*just for testing*/
 }
 
 /*advantages*/
 
 div.advantages {
-    background-image: url(../img/ser4.png);
+    background-image: url(../img/advatage-background.jpg);
 }
 
-div.advantages .imgcontainer {
-
+div.advantages-img {
+    height: 300px;
+    background-size: contain;
 }
 
-div.advantages .imgcontainer * {
-    box-sizing: border-box;
+#ser1 {
+    background: url("/img/ser1.png") top left no-repeat;
 }
 
-.advantages [class^="responsive"] {
-    width: 100%;
-    height: 400px;
+#ser2 {
+    background: url("/img/ser2.png") top left no-repeat;
 }
 
-.advantages .responsive-larger {
-    float: left;
-    width: 59%;
+#ser3 {
+    background: url("/img/ser3.png") top left no-repeat;
 }
 
-.advantages .responsive {
-    float: left;
-    width: 39%;
+#ser4 {
+    background: url("/img/ser4.png") top left no-repeat;
 }
 
 .strike {
