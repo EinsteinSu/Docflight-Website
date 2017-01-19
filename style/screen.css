@@ -1,8 +1,3 @@
-body {
-    /*define the fonts*/
-    margin: 0;
-}
-
 /*all buttons opacity changes to 65% when being hovered over*/
 button:hover {
     opacity: 0.65;
@@ -17,105 +12,6 @@ h2 {
     text-transform: uppercase;
 }
 
-/*container*/
-.container {
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-}
-
-/*navigation bar*/
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
-}
-
-ul.nav li {
-    float: left;
-}
-
-ul.nav li a {
-    display: inline-block;
-    color: gray;
-    text-align: center;
-    padding: 50px 35px 5px 35px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-ul.nav li a.brand {
-    margin-left: 20px;
-    padding: 0;
-}
-
-ul.nav li a.brand:hover {
-    background-color: transparent;
-
-}
-
-ul.nav li img {
-    float: left;
-    display: inline-block;
-    height: 90px;
-    width: auto;
-}
-
-ul.nav li a:hover {
-    background-color: #6dc6d4;
-    opacity: 0.65;
-}
-
-ul.nav li.icon a {
-    padding: 35px 16px;
-}
-
-ul.nav li.icon {
-    display: none;
-}
-
-/* login and language buttons*/
-ul.nav li a.button {
-    padding-top: 45px;
-}
-
-ul.nav li a.button:hover {
-    background-color: transparent;
-
-}
-
-#login {
-    padding: 5px;
-    background-color: #805eea;
-    color: white;
-}
-
-#lang {
-    padding: 5px;
-    background-color: #6dc6d4;
-    color: white;
-}
 
 /*video*/
 div.video {
@@ -145,7 +41,7 @@ div.video div.slogan {
     font-size: 50px;
     color: white;
     width: 50%;
-    height:50%;
+    height: 50%;
     text-align: center;
     text-shadow: 5px 5px 10px gray;
 }
