@@ -5,6 +5,7 @@ button:hover {
 
 h2 {
     font-size: 25px;
+    text-align: center;
 }
 
 .center-uppercase {
@@ -17,7 +18,7 @@ h2 {
     background: url(../img/slogan.jpg) left top no-repeat;
     background-size: 100% auto;
     height: 500px;
-    opacity: 0.6;
+
 }
 
 .slogan-panel {
@@ -100,25 +101,38 @@ div.advantages {
     background-image: url(../img/advatage-background.jpg);
 }
 
-div.advantages-img {
-    height: 300px;
-    background-size: contain;
+.advantages-img {
+    height: 400px;
 }
 
-#ser1 {
-    background: url("/img/ser1.png") top left no-repeat;
+.advantages-img img {
+    width: 100%;
+    height: 100%;
 }
 
-#ser2 {
-    background: url("/img/ser2.png") top left no-repeat;
+.advantages-img p {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    font-weight: bold;
 }
 
-#ser3 {
-    background: url("/img/ser3.png") top left no-repeat;
+.advantages-img .stage  {
+    position: absolute;
+    left:30px;
+    bottom:20px;
 }
 
-#ser4 {
-    background: url("/img/ser4.png") top left no-repeat;
+.advantages-img .stage h2 {
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+    left: 10px;
+}
+
+.advantages-img .stage p {
+    position: relative;
+    left: 10px;
 }
 
 .strike {
@@ -156,10 +170,57 @@ div.advantages-img {
 }
 
 /*doctors*/
+.doctors {
+    position: relative;
+}
+
+.doctors h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.doctors button {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #6dc6d4;
+}
 
 /*hospitals*/
 div.hospitals {
-    background-image: url(../img/ser4.png);
+    background-image: url(../img/hospitals.jpg);
+}
+
+div.hospitals h2 {
+    text-align: left;
+}
+
+div.hospitals button {
+    margin-top: 20px;
+    width: 150px;
+    border: 2px solid black;
+}
+
+#circle {
+    width: 80px;
+    height: 80px;
+    background: #6dc6d4;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    float: left;
+    position: absolute;
+    opacity: 0.68;
+}
+
+.hospital-left {
+    margin: 40px;
+    z-index: 999;
+}
+
+.hospital-left img {
+    width: 100%;
+    height: auto;
 }
 
 /*news and medias*/
