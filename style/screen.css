@@ -117,10 +117,10 @@ div.advantages {
     font-weight: bold;
 }
 
-.advantages-img .stage  {
+.advantages-img .stage {
     position: absolute;
-    left:30px;
-    bottom:20px;
+    left: 30px;
+    bottom: 20px;
 }
 
 .advantages-img .stage h2 {
@@ -225,11 +225,11 @@ div.hospitals button {
 
 /*news and medias*/
 div.news {
-    background-image: url(../img/ser4.png);
-    height: 900px;
+    background-image: url(../img/news.jpg);
 }
 
 div.news table {
+    margin-top: 20px;
     width: 100%;
     border-collapse: collapse;
     font-size: 30px;
@@ -249,47 +249,46 @@ div.news td-right {
     width: 70%;
 }
 
+/*medias*/
+.medias-content {
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: black;
+    opacity: 0.5;
+    height: 200px;
+}
+
 /*footer*/
 div.footer {
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div.footeritem {
-    width: 33.333%;
-    float: left;
-    position: relative;
     margin: auto;
 }
 
 div.footeritem img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
-div.footeritem div {
-    margin: 10px 15px;
-}
-
 div.footeritem div img {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 30px;
     padding-right: 10px;
 }
 
 div.footeritem h2 {
-    margin-top: 100px;
+    margin-top: 10px;
     text-align: center;
 }
 
 div.footeritem input[type=text] {
-    width: 60%;
-    font-size: 30px;
-    float: left;
     background-color: #6dc6d4;
     color: white;
     border: none;
     border-radius: 30px;
-    margin-left: 15%;
 }
 
 div.footeritem button {
@@ -299,12 +298,10 @@ div.footeritem button {
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    font-size: 30px;
     cursor: pointer;
     border-radius: 50px;
-    float: left;
-    width: 20%;
-    margin-left: -20%;
+    float:left;
+    position:absolute;
 }
 
 div.footeritem div.qr {
