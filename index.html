@@ -31,7 +31,18 @@
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">OverView</a>
+                            <a href="#">Our Team</a>
+                            <a href="#">Work Flow</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#">Doctors</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">About Us</a></li>
@@ -42,7 +53,7 @@
                     <a id="login" class="btn navbar-btn"> Login</a>
                 </li>
                 <li>
-                    <a id="lang" class="btn navbar-btn"> 中</a>
+                    <a id="lang" href="index-cn.html" class="btn navbar-btn"> 中</a>
                 </li>
             </ul>
         </div>
@@ -50,7 +61,9 @@
 </nav>
 <div class="container-fluid slogan">
     <div class="container">
-        <div class="row slogan-panel"></div>
+        <div class="row slogan-panel">
+
+        </div>
         <div class="row slogan-panel">
             <div class="col-sm-6 ">
                 <div class="slogan-content">
@@ -120,460 +133,470 @@
     </div>
 </div>
 
-<div class="container-fluid">
-    <div class="imgbackground advantages">
-        <div class="container strike">
-            <span>Advantages</span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-7">
-                    <div class="advantages-img">
-                        <img src="img/ser1.png" alt="Docflight">
-                        <div class="stage">
-                            <h2>EXPERTS</h2>
-                            <p>Etiam vel molestie mauris. Etiam eu nibh in<br>
-                                lectus mattis ultricies id id urna. mauris ultric-<br>
-                                ies tortor lacus, et congue ex maximus egetE-<br>
-                                tiam vulputate maximus hendrerit nam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5">
-                    <div class="advantages-img">
-                        <img src="img/ser2.png" alt="Docflight">
-                        <p>MOST VALUABLE</p>
+<div class="container-fluid advantages">
+    <div class="container strike">
+        <span>Advantages</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-7">
+                <div class="advantages-img">
+                    <img src="img/ser1.png" alt="Docflight">
+                    <div class="stage">
+                        <h2>EXPERTS</h2>
+                        <p>Etiam vel molestie mauris. Etiam eu nibh in<br>
+                            lectus mattis ultricies id id urna. mauris ultric-<br>
+                            ies tortor lacus, et congue ex maximus egetE-<br>
+                            tiam vulputate maximus hendrerit nam.</p>
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top: 10px">
-                <div class="col-sm-6 col-md-5">
-                    <div class="advantages-img">
-                        <img src="img/ser3.png" alt="Docflight">
-                        <p>24/7 SERVICES</p>
-                    </div>
+            <div class="col-sm-6 col-md-5">
+                <div class="advantages-img">
+                    <img src="img/ser2.png" alt="Docflight">
+                    <p>MOST VALUABLE</p>
                 </div>
-                <div class="col-sm-6 col-md-7">
-                    <div class="advantages-img">
-                        <img src="img/ser4.png" alt="Docflight">
-                        <p>FOLLOWING UP</p>
-                    </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col-sm-6 col-md-5">
+                <div class="advantages-img">
+                    <img src="img/ser3.png" alt="Docflight">
+                    <p>24/7 SERVICES</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-7">
+                <div class="advantages-img">
+                    <img src="img/ser4.png" alt="Docflight">
+                    <p>FOLLOWING UP</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid">
-    <div class="lightBlue">
-        <div class="container strike">
-            <span>Doctors</span>
-        </div>
-        <h2>UT ACCUMSAN NISI SED ORCI SODALES MATTIS.</h2>
-        <div class="container doctors">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="img/doc1.png" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <h3>Jacques Carter, MD</h3>
-                            <p>Sed ac fermentum neque.
-                                Nunc non faucibus risus.
-                                Curabitur risus erat, mollis
-                                quis neque id, imperdiet
-                                commodo libero. Nam et
-                                sapien sapien.mollis quis
-                                neque id.mollis quis.</p>
-                            <p>
-                                <button class="btn btn-default">SCHEDULE</button>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="img/doc2.png" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <h3>Julia Smith, MD</h3>
-                            <p>
-                                Sed ac fermentum neque.
-                                Nunc non faucibus risus.
-                                Curabitur risus erat, mollis
-                                quis neque id, imperdiet
-                                commodo libero. Nam et
-                                sapien sapien.mollis quis
-                                neque id.mollis quis.
-                            </p>
-                            <p>
-                                <button class="btn btn-default">SCHEDULE</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="img/doc3.png" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <h3>Anthony Amato, MD</h3>
-                            <p>
-                                Sed ac fermentum neque.
-                                Nunc non faucibus risus.
-                                Curabitur risus erat, mollis
-                                quis neque id, imperdiet
-                                commodo libero. Nam et
-                                sapien sapien.mollis quis
-                                neque id.mollis quis.
-                            </p>
-                            <p>
-                                <button class="btn btn-default">SCHEDULE</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <img src="img/doc4.png" alt="">
-                        </div>
-                        <div class="col-sm-6">
-                            <h3>Clifford Bassett, MD</h3>
-                            <p>
-                                Sed ac fermentum neque.
-                                Nunc non faucibus risus.
-                                Curabitur risus erat, mollis
-                                quis neque id, imperdiet
-                                commodo libero. Nam et
-                                sapien sapien.mollis quis
-                                neque id.mollis quis.
-                            </p>
-                            <p>
-                                <button class="btn btn-default">SCHEDULE</button>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>Doctors</span>
     </div>
-</div>
-<div class="container-fluid">
-    <div class="imgbackground hospitals">
-        <div class="container strike">
-            <span>Hospitals</span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <div id="circle"></div>
-                    <div class="hospital-left">
-                        <img src="img/hospital.png" alt="">
-                    </div>
-
-                </div>
-                <div class="col-sm-6">
-                    <div>
-                        <h2>NEW YORK LANGONE MEDICAL CENTER</h2>
-                        <p>Integer consequat enim nisi. Proin velit eros, elementum
-                            in blandit eget, mollis nec nisl. Curabitur
-                            nec turpis mauris. Nulla sodales sagittis orci, et
-                            maximus ipsum interdum sed. Vivamus a ex.</p>
-                        <button class="btn btn-default">MORE >></button>
-                    </div>
-                    <div>
-                        <div id="carousel-hospitals" class="carousel slide hospitals-carousel" data-ride="carousel"
-                             data-interval="3000">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c1.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c2.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c3.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c1.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c2.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c3.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c1.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c2.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                        <div class="col-sm-4"><a href="#x" class="thumbnail"><img
-                                                src="img/hospital-c3.png"
-                                                alt="Docflight" class="img-responsive"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="left carousel-control" href="#carousel-hospitals" data-slide="prev">‹</a>
-                            <a class="right carousel-control" href="#carousel-hospitals" data-slide="next">›</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="lightBlue">
-        <div class="container strike">
-            <span>About Us</span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-7">
-                    <div>
-                        <img src="img/video.png" alt="" style="height: auto;width: 100%">
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-5">
-                    <p style="font-size:20px">
-                        Sed risus nulla, efficitur at elit a,<br>
-                        volutpat sollicitudin tortor. Sed ac fer-<br>
-                        mentum neque. Nunc non faucibus <br>
-                        risus. Curabitur risus erat, mollis quis <br>
-                        neque id, imperdiet commodo libero.<br>
-                        Nam et sapien sapien. Ut accumsan<br>
-                        nisi Sed orci sodales mattis.
-                    </p>
-                    <p style="font-size:20px">
-                        Etiam vel molestie mauris. Etiam<br>
-                        eu nibh in lectus mattis ultricies id id<br>
-                        congue ex maximus eget. Etiam vul-<br>
-                        putate maximus hendrerit. Nam mattis<br>
-                        mollis pulvinar. Aenean vitae lorem necc<br>
-                        dui consequat venenatis quis ac nibh.<br>
-                        Curabitur rhoncus tellus et condimen-<br>
-                        tum egestas.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="lightBlue">
-        <div class="container strike">
-            <span>TESTMONIES</span>
-        </div>
-        <div class="container">
-            <div class="testimoniesCarousel">
-                <div id="testimoniesCarousel" class="carousel slide " data-ride="carousel" data-interval="3000">
-                    <div class="row">
-                        <div class="col-sm-1">
-                            <div class="testimoniesIndicator">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#testimoniesCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#testimoniesCarousel" data-slide-to="1"></li>
-                                    <li data-target="#testimoniesCarousel" data-slide-to="2"></li>
-                                    <li data-target="#testimoniesCarousel" data-slide-to="3"></li>
-                                </ol>
-                            </div>
-                        </div>
-                        <div class="col-sm-11">
-                            <div class="carousel-inner vertical" role="listbox">
-                                <div class="active item">
-                                    <img src="img/testimonies.png" class="img-responsive">
-                                    <div class="carousel-caption">
-                                        <div class="underline"></div>
-                                        <h3>MRS. XUE</h3>
-                                        <h4>TianJing</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="img/testimonies.png" class="img-responsive">
-                                    <div class="carousel-caption">
-                                        <div class="underline"></div>
-                                        <h3>MRS. XUE</h3>
-                                        <h4>TianJing</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="img/testimonies.png" class="img-responsive">
-                                    <div class="carousel-caption">
-                                        <div class="underline"></div>
-                                        <h3>MRS. XUE</h3>
-                                        <h4>TianJing</h4>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="img/testimonies.png" class="img-responsive">
-                                    <div class="carousel-caption">
-                                        <div class="underline"></div>
-                                        <h3>MRS. XUE</h3>
-                                        <h4>TianJing</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="imgbackground news">
-        <div class="container strike">
-            <span>News</span>
-        </div>
-        <div class="container">
-            <table class="table ">
-                <tr>
-                    <td>
-                        2016.11.15
-                    </td>
-                    <td>
-                        Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        2016.11.12
-                    </td>
-                    <td>
-                        Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        2016.10.18
-                    </td>
-                    <td>
-                        Aenean sed diam risus. Duis eu cursus eros. Sed sit amet tempor mauris,
-                        Ut gravida imperdiet massa sed pretium.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        2016.10.12
-                    </td>
-                    <td>
-                        Morbi posuere justo at ultrices ullamcorper. Nulla neque augue, suscipit a
-                        ultricies sed, posuere id dui.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        2016.10.06
-                    </td>
-                    <td>
-                        Nam iaculis tincidunt purus at ullamcorper. Vestibulum mauris massa.
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="container strike" style="margin-top: 20px;">
-            <span>Medias</span>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="medias-content"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="lightBlue">
-        <div class="row footer">
-            <div class="col-sm-4 footeritem">
-                <img src="img/footer-logo.png" alt="">
-                <div style="margin-top: 5px">
-                    <a href="#">
-                        <span><img src="img/icons/email3.png" alt=""></span>
-                        <span> 315 W 36th St, New York, NY10018</span>
-                    </a>
-                </div>
-
-                <div style="margin-top: 5px">
-                    <a href="#">
-                        <span><img src="img/icons/web3.png" alt=""></span>
-                        <span> Docflight.com</span>
-                    </a>
-                </div>
-                <div style="margin-top: 5px">
-                    <a href="#">
-                        <span><img src="img/icons/location3.png" alt=""></span>
-                        <span> patient@docflight.com</span>
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-4 footeritem">
-                <h2>Enter your email here to receive coupons</h2>
-                <div style="display:inline-block;">
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                             <button class="btn btn-primary" style="float:left" type="button">Go!</button>
-                         </span>
-                    </div>
-                </div>
+    <h2>UT ACCUMSAN NISI SED ORCI SODALES MATTIS.</h2>
+    <div class="container doctors">
+        <div class="row">
+            <div class="col-md-6">
                 <div class="row">
-                    <div class="col-sm-4">facebook</div>
-                    <div class="col-sm-4">twitter</div>
-                    <div class="col-sm-4">linkin</div>
+                    <div class="col-sm-6">
+                        <img src="img/doc1.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Jacques Carter, MD</h3>
+                        <p>Sed ac fermentum neque.
+                            Nunc non faucibus risus.
+                            Curabitur risus erat, mollis
+                            quis neque id, imperdiet
+                            commodo libero. Nam et
+                            sapien sapien.mollis quis
+                            neque id.mollis quis.</p>
+                        <p>
+                            <button class="btn btn-default">SCHEDULE</button>
+                        </p>
+                    </div>
+
                 </div>
             </div>
-            <div class="col-sm-4"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc2.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Julia Smith, MD</h3>
+                        <p>
+                            Sed ac fermentum neque.
+                            Nunc non faucibus risus.
+                            Curabitur risus erat, mollis
+                            quis neque id, imperdiet
+                            commodo libero. Nam et
+                            sapien sapien.mollis quis
+                            neque id.mollis quis.
+                        </p>
+                        <p>
+                            <button class="btn btn-default">SCHEDULE</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc3.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Anthony Amato, MD</h3>
+                        <p>
+                            Sed ac fermentum neque.
+                            Nunc non faucibus risus.
+                            Curabitur risus erat, mollis
+                            quis neque id, imperdiet
+                            commodo libero. Nam et
+                            sapien sapien.mollis quis
+                            neque id.mollis quis.
+                        </p>
+                        <p>
+                            <button class="btn btn-default">SCHEDULE</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc4.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Clifford Bassett, MD</h3>
+                        <p>
+                            Sed ac fermentum neque.
+                            Nunc non faucibus risus.
+                            Curabitur risus erat, mollis
+                            quis neque id, imperdiet
+                            commodo libero. Nam et
+                            sapien sapien.mollis quis
+                            neque id.mollis quis.
+                        </p>
+                        <p>
+                            <button class="btn btn-default">SCHEDULE</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid hospitals">
+    <div class="container strike">
+        <span>Hospitals</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="circle"></div>
+                <div class="hospital-left">
+                    <img src="img/hospital.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <h2>NEW YORK LANGONE MEDICAL CENTER</h2>
+                    <p>Integer consequat enim nisi. Proin velit eros, elementum
+                        in blandit eget, mollis nec nisl. Curabitur
+                        nec turpis mauris. Nulla sodales sagittis orci, et
+                        maximus ipsum interdum sed. Vivamus a ex.</p>
+                    <button class="btn btn-default">MORE >></button>
+                </div>
+                <div>
+                    <div id="carousel-hospitals" class="carousel slide hospitals-carousel" data-ride="carousel"
+                         data-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-hospitals" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#carousel-hospitals" data-slide="next">›</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>About Us</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-7">
+                <div>
+                    <img src="img/video.png" alt="" style="height: auto;width: 100%">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-5">
+                <p style="font-size:20px">
+                    Sed risus nulla, efficitur at elit a,<br>
+                    volutpat sollicitudin tortor. Sed ac fer-<br>
+                    mentum neque. Nunc non faucibus <br>
+                    risus. Curabitur risus erat, mollis quis <br>
+                    neque id, imperdiet commodo libero.<br>
+                    Nam et sapien sapien. Ut accumsan<br>
+                    nisi Sed orci sodales mattis.
+                </p>
+                <p style="font-size:20px">
+                    Etiam vel molestie mauris. Etiam<br>
+                    eu nibh in lectus mattis ultricies id id<br>
+                    congue ex maximus eget. Etiam vul-<br>
+                    putate maximus hendrerit. Nam mattis<br>
+                    mollis pulvinar. Aenean vitae lorem necc<br>
+                    dui consequat venenatis quis ac nibh.<br>
+                    Curabitur rhoncus tellus et condimen-<br>
+                    tum egestas.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>TESTMONIES</span>
+    </div>
+    <div class="container">
+        <div class="testimoniesCarousel">
+            <div id="testimoniesCarousel" class="carousel slide " data-ride="carousel" data-interval="3000">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="testimoniesIndicator">
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimoniesCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="2"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="3"></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="carousel-inner vertical" role="listbox">
+                            <div class="active item">
+                                <img src="img/testimonies.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>MRS. XUE</h3>
+                                    <h4>TianJing</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>MRS. XUE</h3>
+                                    <h4>TianJing</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>MRS. XUE</h3>
+                                    <h4>TianJing</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>MRS. XUE</h3>
+                                    <h4>TianJing</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid news">
+    <div class="container strike">
+        <span>News</span>
+    </div>
+    <div class="container">
+        <table class="table ">
+            <tr>
+                <td>
+                    2016.11.15
+                </td>
+                <td>
+                    Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.11.12
+                </td>
+                <td>
+                    Integer consequat enim nisi. Proin velit eros, elementum in blandit eget.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.18
+                </td>
+                <td>
+                    Aenean sed diam risus. Duis eu cursus eros. Sed sit amet tempor mauris,
+                    Ut gravida imperdiet massa sed pretium.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.12
+                </td>
+                <td>
+                    Morbi posuere justo at ultrices ullamcorper. Nulla neque augue, suscipit a
+                    ultricies sed, posuere id dui.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.06
+                </td>
+                <td>
+                    Nam iaculis tincidunt purus at ullamcorper. Vestibulum mauris massa.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container strike" style="margin-top: 20px;">
+        <span>Medias</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="row footer">
+        <div class="col-sm-4 footeritem">
+            <img src="img/footer-logo.png" alt="">
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/email3.png" alt=""></span>
+                    <span> 315 W 36th St, New York, NY10018</span>
+                </a>
+            </div>
+
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/web3.png" alt=""></span>
+                    <span> Docflight.com</span>
+                </a>
+            </div>
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/location3.png" alt=""></span>
+                    <span> patient@docflight.com</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-4 footeritem" style="margin-top: 20px">
+            <div>
+                <h2>Enter your email here to receive coupons</h2>
+            </div>
+            <div class="row" style="margin-top: 20px">
+                <div class="input-group sendemailgroup">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row icons">
+                <div class="col-sm-4">
+                    <img src="img/icons/facebook.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/icons/twitter.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/icons/linkedin.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin-top: 20px">
+            <div class="row">
+                <div class="col-sm-6 qr">
+                    <p>PUBLIC ACCOUNT</p>
+                    <img src="img/qr1公共430.jpg" alt="">
+                </div>
+                <div class="col-sm-6 qr">
+                    <p>CONSULTANT</p>
+                    <img src="img/qr2顾问430.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center">
+        &copy; 2017 DocFlight. All Rights Reserved.
     </div>
 </div>
 </body>

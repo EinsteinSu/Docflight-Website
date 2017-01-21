@@ -8,6 +8,13 @@ h2 {
     text-align: center;
 }
 
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
 .center-uppercase {
     text-align: center;
     text-transform: uppercase;
@@ -15,10 +22,39 @@ h2 {
 
 /*slogan*/
 .slogan {
+    position: relative;
+}
+
+div.slogan:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
     background: url(../img/slogan.jpg) left top no-repeat;
     background-size: 100% auto;
-    height: 500px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    z-index: -1;
+}
 
+.slogan-cn {
+    position: relative;
+}
+
+div.slogan-cn:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/slogan-cn.jpg) left top no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    z-index: -1;
 }
 
 .slogan-panel {
@@ -87,18 +123,28 @@ h2 {
     top: -25px;
 }
 
-div.imgbackground {
-    background-size: 100% auto;
-}
-
 div.lightBlue {
     background-color: #dfeef3;
+    padding: 0;
 }
 
 /*advantages*/
+.advantages {
+    position: relative;
+}
 
-div.advantages {
-    background-image: url(../img/advatage-background.jpg);
+div.advantages:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/advantages.jpg) left top no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    z-index: -1;
 }
 
 .advantages-img {
@@ -187,8 +233,23 @@ div.advantages {
 }
 
 /*hospitals*/
+
 div.hospitals {
-    background-image: url(../img/hospitals.jpg);
+    position: relative;
+}
+
+div.hospitals:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/hospitals.jpg) left top no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    z-index: -1;
 }
 
 div.hospitals h2 {
@@ -225,7 +286,21 @@ div.hospitals button {
 
 /*news and medias*/
 div.news {
-    background-image: url(../img/news.jpg);
+    position: relative;
+}
+
+div.news:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/news.jpg) left top no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+    z-index: -1;
 }
 
 div.news table {
@@ -253,6 +328,7 @@ div.news td-right {
 .medias-content {
     border: 1px solid black;
     margin-top: 10px;
+    margin-bottom: 10px;
     background-color: black;
     opacity: 0.5;
     height: 200px;
@@ -280,37 +356,51 @@ div.footeritem div img {
 }
 
 div.footeritem h2 {
-    margin-top: 10px;
     text-align: center;
 }
 
-div.footeritem input[type=text] {
+div.icons {
+    margin-top: 20px;
+}
+
+div.icons div > img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 60px;
+}
+
+div.sendemailgroup {
+    width: 60%;
+    margin: auto;
+}
+
+div.sendemailgroup input[type=text] {
     background-color: #6dc6d4;
     color: white;
     border: none;
     border-radius: 30px;
 }
 
-div.footeritem button {
+div.sendemailgroup button {
     background-color: #805eea;
     border: none;
     color: white;
-    text-decoration: none;
+    border-radius: 20px;
+    margin-left: -10px;
+    z-index: 999;
+}
+
+div.qr {
+
+}
+
+div.qr p {
     text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    border-radius: 50px;
-    float:left;
-    position:absolute;
 }
 
-div.footeritem div.qr {
-    width: 35%;
-    float: left;
-    margin-top: 10%;
-}
-
-div.footeritem div.qr img {
-    width: 100%;
-    height: auto;
+div.qr img {
+    width: 60%;
+    display: block;
+    margin: auto;
 }

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style/screen.css">
+    <link rel="stylesheet" type="text/css" href="style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="style/button.css">
+    <link rel="stylesheet" type="text/css" href="style/carousel.css">
+    <link rel="stylesheet" type="text/css" href="style/grid-vertical.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <title>Docflight</title>
+</head>
+<body>
+<nav class="navbar navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/header-logo.png" alt="">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">最新动态</a></li>
+                <li><a href="#">名医团队</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">平台与服务
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">服务介绍</a>
+                            <a href="#">平台介绍</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">专科领域</a></li>
+                <li><a href="#">治疗实例</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">公司简介</a>
+                            <a href="#">公司团队</a>
+                            <a href="#">联系我们</a>
+                            <a href="#">常见问题</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a id="login" class="btn navbar-btn"> 登录</a>
+                </li>
+                <li>
+                    <a id="lang" href="index.html" class="btn navbar-btn"> EN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid slogan-cn">
+    <div class="container">
+        <div class="row slogan-panel">
+
+        </div>
+        <div class="row slogan-panel">
+            <div class="col-sm-6 ">
+                <div class="slogan-content">
+                    <p>"与美国名医零距离，</p>
+                    <p>重塑健康新希望</p>
+                    <p>-美约名医</p>
+                    <button id="register" class="btn btn-primary">注册会员</button>
+                </div>
+            </div>
+            <div class="col-sm-6">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row buttongroup buttongroup-buttons">
+        <div class="col-sm-4">
+            <button>
+                服务简介
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button>
+                专业领域
+            </button>
+        </div>
+        <div class="col-sm-4">
+            <button>
+                平台优势
+            </button>
+        </div>
+    </div>
+    <div class="row buttongroup imgbuttons">
+        <div class="col-sm-3">
+            <button>
+                <div class="arrow-up"></div>
+                <span>
+                    <img src="img/icons/video-chat3.png" alt="">
+                </span>
+                <span> 视频问诊</span>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <button>
+                <span>
+                    <img src="img/icons/writing-letter3.png" alt="">
+                </span>
+                <span> 书面问诊</span>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <button>
+                <span>
+                    <img src="img/icons/travel3.png" alt="">
+                </span>
+                <span> 赴美医疗</span>
+            </button>
+        </div>
+        <div class="col-sm-3">
+            <button>
+                <span>
+                    <img src="img/icons/doctor3.png" alt="">
+                </span>
+                <span> 私人医生</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid advantages">
+    <div class="container strike">
+        <span>Advantages</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-7">
+                <div class="advantages-img">
+                    <img src="img/ser1.png" alt="Docflight">
+                    <div class="stage">
+                        <h2>权威专家</h2>
+                        <p>患者可根据自身的需求，在会诊服务结束后与美
+                            国专家就病情发展和治疗进行随访咨询，对自身
+                            的健康医疗状况进行长期监测。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-5">
+                <div class="advantages-img">
+                    <img src="img/ser2.png" alt="Docflight">
+                    <p>经济价格</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col-sm-6 col-md-5">
+                <div class="advantages-img">
+                    <img src="img/ser3.png" alt="Docflight">
+                    <p>优质服务</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-7">
+                <div class="advantages-img">
+                    <img src="img/ser4.png" alt="Docflight">
+                    <p>后续访问</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>名医团队</span>
+    </div>
+    <h2>汇聚世界顶级专家 打造国际名医云平台</h2>
+    <div class="container doctors">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc1.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Jacques Carter, MD</h3>
+                        <p>您可以输入沿着用钢笔或形状
+                            工具创建的工作路径的边缘排
+                            列的文字。当您沿着路径输入
+                            文字时，文字将沿着锚点被添
+                            加到路径的方向排列。在路径
+                            上输入横排文字会排文字会导
+                            致文字方向与基线平行。</p>
+                        <p>
+                            <button class="btn btn-default">预约咨询</button>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc2.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Julia Smith, MD</h3>
+                        <p>
+                            您可以输入沿着用钢笔或形状
+                            工具创建的工作路径的边缘排
+                            列的文字。当您沿着路径输入
+                            文字时，文字将沿着锚点被添
+                            加到路径的方向排列。在路径
+                            上输入横排文字会排文字会导
+                            致文字方向与基线平行。
+                        </p>
+                        <p>
+                            <button class="btn btn-default">预约咨询</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc3.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Anthony Amato, MD</h3>
+                        <p>
+                            您可以输入沿着用钢笔或形状
+                            工具创建的工作路径的边缘排
+                            列的文字。当您沿着路径输入
+                            文字时，文字将沿着锚点被添
+                            加到路径的方向排列。在路径
+                            上输入横排文字会排文字会导
+                            致文字方向与基线平行。
+                        </p>
+                        <p>
+                            <button class="btn btn-default">预约咨询</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/doc4.png" alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Clifford Bassett, MD</h3>
+                        <p>
+                            您可以输入沿着用钢笔或形状
+                            工具创建的工作路径的边缘排
+                            列的文字。当您沿着路径输入
+                            文字时，文字将沿着锚点被添
+                            加到路径的方向排列。在路径
+                            上输入横排文字会排文字会导
+                            致文字方向与基线平行。
+                        </p>
+                        <p>
+                            <button class="btn btn-default">预约咨询</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid hospitals">
+    <div class="container strike">
+        <span>名医来自</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div id="circle"></div>
+                <div class="hospital-left">
+                    <img src="img/hospital.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-sm-6">
+                <div>
+                    <h2>纽约大学朗格尼医学中心</h2>
+                    <p>该院一直是医学领域的先驱，也是卫生保健创新的领
+                        导者。他们的5个领先的临床区域是：心脏和血管、神
+                        经病学和神经Beth Israel Deaconess Medical
+                        Center 外科学、癌症、肌肉骨骼、儿童服务。</p>
+                    <button class="btn btn-default">了解更多 >></button>
+                </div>
+                <div>
+                    <div id="carousel-hospitals" class="carousel slide hospitals-carousel" data-ride="carousel"
+                         data-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c1.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c2.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-sm-4"><a href="#x" class="thumbnail"><img
+                                            src="img/hospital-c3.png"
+                                            alt="Docflight" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-hospitals" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#carousel-hospitals" data-slide="next">›</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>关于我们</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-7">
+                <div>
+                    <img src="img/video.png" alt="" style="height: auto;width: 100%">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-5">
+                <p style="font-size:20px">
+                    我们的专家网络覆盖了所有科室的<br>
+                    近百名的顶级专家资源，尤其在肿瘤科<br>
+                    ，皮肤科和神经内科有着强大的资源和 <br>
+                    巨大的优势，我们拥有世界一流的医疗 <br>
+                    团队。<br>
+                </p>
+                <p style="font-size:20px">
+                    我们的医生来自哈佛大学附属医院<br>
+                    （麻省总院、布列根妇女 (Brigham &<br>
+                    Women) 医院、丹娜法巴 (Dana<br>
+                    Farber) 癌症中心、贝斯以色列 (Beth<br>
+                    Israel) 医学中心）、约翰霍普金斯医学<br>
+                    院、纪念斯隆-凯特琳癌症中心、哥伦<br>
+                    比亚大学医学院、纽约大学医学院、康<br>
+                    奈尔大学医学院、匹兹堡儿童医院等顶<br>
+                    尖医院诊所并担任各大跨国医疗医药公<br>
+                    司的医学顾问，因此可以让中国用户也<br>
+                    能享受全球最顶尖医生的服务。
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="container strike">
+        <span>服务评价</span>
+    </div>
+    <div class="container">
+        <div class="testimoniesCarousel">
+            <div id="testimoniesCarousel" class="carousel slide " data-ride="carousel" data-interval="3000">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <div class="testimoniesIndicator">
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimoniesCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="2"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="3"></li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="carousel-inner vertical" role="listbox">
+                            <div class="active item">
+                                <img src="img/testimonies-cn.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>患者薛女士</h3>
+                                    <h4>天津，乳腺癌患者</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies-cn.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>患者薛女士</h3>
+                                    <h4>天津，乳腺癌患者</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies-cn.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>患者薛女士</h3>
+                                    <h4>天津，乳腺癌患者</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/testimonies-cn.png" class="img-responsive">
+                                <div class="carousel-caption">
+                                    <div class="underline"></div>
+                                    <h3>患者薛女士</h3>
+                                    <h4>天津，乳腺癌患者</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid news">
+    <div class="container strike">
+        <span>News</span>
+    </div>
+    <div class="container">
+        <table class="table ">
+            <tr>
+                <td>
+                    2016.11.15
+                </td>
+                <td>
+                    基于丰富的美国顶级名医资源,打破传统海外医疗公司仅限于对接医院的局限
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.11.12
+                </td>
+                <td>
+                    医疗领域是一个专业性极强的领域，因此服务团队的专业性将直接
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.18
+                </td>
+                <td>
+                    美约名医作为精品海外医疗公司,通过医疗资源零中介对接及大数据算法的真
+                    理化应用
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.12
+                </td>
+                <td>
+                    美约名医通过大数据分析技术开发出的线上问诊平台,无需经过繁琐下载和海
+                    量检索，轻松实现用户一对一
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2016.10.06
+                </td>
+                <td>
+                    在癌症等重大疾病以及其他无法在国内获得满意治疗的疾病
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container strike" style="margin-top: 20px;">
+        <span>媒体报道</span>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+            <div class="col-sm-3">
+                <div class="medias-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid lightBlue">
+    <div class="row footer">
+        <div class="col-sm-4 footeritem">
+            <img src="img/footer-logo.png" alt="">
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/email3.png" alt=""></span>
+                    <span> 315 W 36th St, New York, NY10018</span>
+                </a>
+            </div>
+
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/web3.png" alt=""></span>
+                    <span> Docflight.com</span>
+                </a>
+            </div>
+            <div style="margin-top: 5px">
+                <a href="#">
+                    <span><img src="img/icons/location3.png" alt=""></span>
+                    <span> patient@docflight.com</span>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-4 footeritem" style="margin-top: 20px">
+            <div>
+                <h2>请输入您的邮箱以获取优惠券</h2>
+            </div>
+            <div class="row" style="margin-top: 20px">
+                <div class="input-group sendemailgroup">
+                    <input type="text" class="form-control" placeholder="邮箱">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">发送</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row icons">
+                <div class="col-sm-4">
+                    <img src="img/icons/facebook.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/icons/twitter.png" alt="">
+                </div>
+                <div class="col-sm-4">
+                    <img src="img/icons/linkedin.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4" style="margin-top: 20px">
+            <div class="row">
+                <div class="col-sm-6 qr">
+                    <p>官 方 微 信</p>
+                    <img src="img/qr1公共430.jpg" alt="">
+                </div>
+                <div class="col-sm-6 qr">
+                    <p>美 约 微 信</p>
+                    <img src="img/qr2顾问430.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center">
+        &copy; 2017 DocFlight. All Rights Reserved.
+    </div>
+</div>
+</body>
+</html>
