@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="style/grid-vertical.css">
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/ui-responsive.js"></script>
     <title>Docflight</title>
 </head>
 <body>
@@ -82,7 +82,7 @@
                     <p>"与美国名医零距离，</p>
                     <p>重塑健康新希望</p>
                     <p>-美约名医</p>
-                    <button id="register" class="btn btn-primary">注册会员</button>
+                    <button id="register" class="btn btn-primary btn-lg">注册会员</button>
                 </div>
             </div>
             <div class="col-sm-6">
@@ -110,34 +110,34 @@
     </div>
     <div class="row buttongroup imgbuttons">
         <div class="col-sm-3">
-            <button>
+            <button id="consultationButton">
                 <div class="arrow-up"></div>
                 <span>
-                    <img src="img/icons/video-chat3.png" alt="">
+                    <img id="consultation" src="img/icons/video-chat3.png" alt="">
                 </span>
                 <span> 视频问诊</span>
             </button>
         </div>
         <div class="col-sm-3">
-            <button>
+            <button id="paperDiagnoseButton">
                 <span>
-                    <img src="img/icons/writing-letter3.png" alt="">
+                    <img id="paperDiagnose" src="img/icons/writing-letter3.png" alt="">
                 </span>
                 <span> 书面问诊</span>
             </button>
         </div>
         <div class="col-sm-3">
-            <button>
+            <button id="travelButton">
                 <span>
-                    <img src="img/icons/travel3.png" alt="">
+                    <img id="travel" src="img/icons/travel3.png" alt="">
                 </span>
                 <span> 赴美医疗</span>
             </button>
         </div>
         <div class="col-sm-3">
-            <button>
+            <button id="familyButton">
                 <span>
-                    <img src="img/icons/doctor3.png" alt="">
+                    <img id="family" src="img/icons/doctor3.png" alt="">
                 </span>
                 <span> 私人医生</span>
             </button>
@@ -582,16 +582,22 @@
                 </div>
             </div>
             <div class="row icons">
-                <div class="col-sm-4">
+            <div class="col-sm-4">
+                <a href="#">
                     <img src="img/icons/facebook.png" alt="">
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/icons/twitter.png" alt="">
-                </div>
-                <div class="col-sm-4">
-                    <img src="img/icons/linkedin.png" alt="">
-                </div>
+                </a>
             </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="img/icons/twitter.png" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="#">
+                    <img src="img/icons/linkedin.png" alt="">
+                </a>
+            </div>
+        </div>
         </div>
         <div class="col-sm-4" style="margin-top: 20px">
             <div class="row">

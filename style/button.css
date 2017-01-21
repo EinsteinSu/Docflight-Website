@@ -15,3 +15,10 @@
 #register {
     background-color: #805eea;
 }
+.imgbuttons div button{
+    font-size:30px;
+}
+
+.imgbuttons div button:hover {
+    color: #6dc6d4;
+}

@@ -363,7 +363,7 @@ div.icons {
     margin-top: 20px;
 }
 
-div.icons div > img {
+div.icons div a > img {
     display: block;
     margin: auto;
     height: auto;
@@ -386,7 +386,7 @@ div.sendemailgroup button {
     background-color: #805eea;
     border: none;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-left: -10px;
     z-index: 999;
 }
