@@ -104,15 +104,16 @@ div.slogan-cn:after {
     font-size: 20px;
 }
 
-.imgbuttons button:hover {
-    text-decoration: underline;
-}
-
 .imgbuttons span img {
-    height: 24px;
+    height: 30px;
+    margin-bottom: 10px;
 }
 
-.arrow-up {
+.imgbutton-underline {
+    border-bottom: 3px solid #6dc6d4;
+}
+
+#arrow-up {
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -121,7 +122,9 @@ div.slogan-cn:after {
     position: absolute;
     left: 50%;
     top: -25px;
+    z-index: 9999;
 }
+
 
 div.lightBlue {
     background-color: #dfeef3;
@@ -272,6 +275,18 @@ div.hospitals button {
     float: left;
     position: absolute;
     opacity: 0.68;
+}
+
+@media screen and (max-width: 755px) {
+    #circle {
+        margin-top: -25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #circle {
+        margin-top: -50px;
+    }
 }
 
 .hospital-left {
