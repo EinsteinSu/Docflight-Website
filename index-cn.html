@@ -71,23 +71,13 @@
         </div>
     </div>
 </nav>
-<div class="container-fluid slogan-cn">
-    <div class="container">
-        <div class="row slogan-panel">
-
-        </div>
-        <div class="row slogan-panel">
-            <div class="col-sm-6 ">
-                <div class="slogan-content">
-                    <p>"与美国名医零距离，</p>
-                    <p>重塑健康新希望</p>
-                    <p>-美约名医</p>
-                    <button id="register" class="btn btn-primary btn-lg">注册会员</button>
-                </div>
-            </div>
-            <div class="col-sm-6">
-            </div>
-        </div>
+<div class="home_slogan">
+    <img src="img/slogan-cn.jpg" width="100%">
+    <div class="home_slogan2 animated fadeIn">
+        <p>"与美国名医零距离，</p>
+        <p>重塑健康新希望</p>
+        <p>-美约名医</p>
+        <button id="register" class="btn btn-primary btn-lg">Register</button>
     </div>
 </div>
 <div class="container-fluid">
@@ -144,7 +134,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid advantages">
+<div class="container-fluid lightBlue">
     <div class="container strike">
         <span>Advantages</span>
     </div>
@@ -191,7 +181,7 @@
     <h2>汇聚世界顶级专家 打造国际名医云平台</h2>
     <div class="container doctors">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 animated fadeInRight">
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="img/doc1.png" alt="">
@@ -206,13 +196,13 @@
                             上输入横排文字会排文字会导
                             致文字方向与基线平行。</p>
                         <p>
-                            <button class="btn">预约咨询</button>
+                            <button class="btn_schedule">预约咨询</button>
                         </p>
                     </div>
 
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 animated fadeInRight">
                 <div class="row">
                     <div class="col-sm-6">
                         <img src="img/doc2.png" alt="">
@@ -229,7 +219,7 @@
                             致文字方向与基线平行。
                         </p>
                         <p>
-                            <button class="btn">预约咨询</button>
+                            <button class="btn_schedule">预约咨询</button>
                         </p>
                     </div>
                 </div>
@@ -253,7 +243,7 @@
                             致文字方向与基线平行。
                         </p>
                         <p>
-                            <button class="btn">预约咨询</button>
+                            <button class="btn_schedule">预约咨询</button>
                         </p>
                     </div>
                 </div>
@@ -275,7 +265,7 @@
                             致文字方向与基线平行。
                         </p>
                         <p>
-                            <button class="btn">预约咨询</button>
+                            <button class="btn_schedule">预约咨询</button>
                         </p>
                     </div>
                 </div>
@@ -283,14 +273,14 @@
         </div>
     </div>
 </div>
-<div class="container-fluid hospitals">
+<div class="container-fluid lightBlue">
     <div class="container strike">
         <span>名医来自</span>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                <div id="circle"></div>
+                <!--<div id="circle"></div>-->
                 <div class="hospital-left">
                     <img src="img/hospital.png" alt="">
                 </div>
@@ -410,16 +400,7 @@
         <div class="testimoniesCarousel">
             <div id="testimoniesCarousel" class="carousel slide " data-ride="carousel" data-interval="3000">
                 <div class="row">
-                    <div class="col-sm-1">
-                        <div class="testimoniesIndicator">
-                            <ol class="carousel-indicators">
-                                <li data-target="#testimoniesCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#testimoniesCarousel" data-slide-to="1"></li>
-                                <li data-target="#testimoniesCarousel" data-slide-to="2"></li>
-                                <li data-target="#testimoniesCarousel" data-slide-to="3"></li>
-                            </ol>
-                        </div>
-                    </div>
+
                     <div class="col-sm-11">
                         <div class="carousel-inner vertical" role="listbox">
                             <div class="active item">
@@ -456,17 +437,27 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-1">
+                        <div class="testimoniesIndicator">
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimoniesCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="2"></li>
+                                <li data-target="#testimoniesCarousel" data-slide-to="3"></li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<div class="container-fluid news">
+<div class="container-fluid lightBlue">
     <div class="container strike">
         <span>News</span>
     </div>
     <div class="container">
-        <table class="table ">
+        <table class="table table-hover" style="font-size: 30px">
             <tr>
                 <td>
                     2016.11.15
@@ -548,26 +539,7 @@
 <div class="container-fluid lightBlue">
     <div class="row footer">
         <div class="col-sm-4 footeritem">
-            <img src="img/footer-logo.png" alt="">
-            <div style="margin-top: 5px">
-                <a href="#">
-                    <span><img src="img/icons/email3.png" alt=""></span>
-                    <span> 315 W 36th St, New York, NY10018</span>
-                </a>
-            </div>
-
-            <div style="margin-top: 5px">
-                <a href="#">
-                    <span><img src="img/icons/web3.png" alt=""></span>
-                    <span> Docflight.com</span>
-                </a>
-            </div>
-            <div style="margin-top: 5px">
-                <a href="#">
-                    <span><img src="img/icons/location3.png" alt=""></span>
-                    <span> patient@docflight.com</span>
-                </a>
-            </div>
+            <img src="img/footer-logo.png" alt="" style="margin-top: 40px">
         </div>
         <div class="col-sm-4 footeritem" style="margin-top: 20px">
             <div>
@@ -579,23 +551,6 @@
                     <div class="input-group-btn">
                         <button class="btn btn-default" type="submit">发送</button>
                     </div>
-                </div>
-            </div>
-            <div class="row icons">
-                <div class="col-sm-4">
-                    <a href="#">
-                        <img src="img/icons/facebook.png" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#">
-                        <img src="img/icons/twitter.png" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="#">
-                        <img src="img/icons/linkedin.png" alt="">
-                    </a>
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@
     border-color: #ead6d6;
     text-transform: uppercase;
     border: none;
+    margin-bottom: 0;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -99,15 +100,8 @@
     opacity: 0.65;
 }
 
-.nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
-.navbar-toggle {
-    padding: 10px;
-    margin: 25px 15px 25px 0;
-}
+
 
 .navbar-brand {
     padding: 0px;
@@ -115,10 +109,5 @@
 
 .navbar-brand > img {
     height: 100%;
-    padding: 15px;
     width: auto;
-}
-
-.navbar-brand {
-    height: 80px;
 }

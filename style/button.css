@@ -1,23 +1,46 @@
 #login {
-    margin: 25px 15px;
+    margin: 10px 15px;
     padding: 5px;
     background-color: #805eea;
     color: white;
 }
 
 #lang {
-    margin: 25px 15px;
+    margin: 10px 15px;
     padding: 5px;
     background-color: #6dc6d4;
     color: white;
 }
 
 #register {
+    transition: 0.65s;
+    -webkit-transition: 0.65s;
+    font-size: 20px;
+}
+
+#register:hover {
     background-color: #805eea;
 }
 
-.imgbuttons div button{
-    font-size:30px;
+.btn_schedule {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #6dc6d4;
+    color: #3964c3;
+    border: none;
+    transition: 0.65s;
+    -webkit-transition: 0.65s;
+    height: 30px;
+}
+
+.btn_schedule:hover {
+    color: white;
+    background-color: #3964c3;
+
+}
+
+.imgbuttons div button {
+    font-size: 30px;
 }
 
 .imgbuttons div button:hover {

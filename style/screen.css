@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto', 'Noto Sans Kannada', serif !important;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskannada.css);
 /*all buttons opacity changes to 65% when being hovered over*/
 button:hover {
     opacity: 0.65;
@@ -23,6 +28,37 @@ h2 {
 /*slogan*/
 .slogan {
     position: relative;
+}
+
+.home_slogan {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.home_slogan img {
+    overflow: hidden;
+    position: relative;
+    opacity: 0.75;
+}
+
+.home_slogan2 {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    text-shadow: 1px 1px 2px gray;
+    font-size: 55px !important;
+    color: white;
+    font-weight: 800;
+}
+
+@media all and (max-width: 800px) {
+    .home_slogan2 {
+        top: 5px;
+        font-size: 35px !important;
+    }
 }
 
 div.slogan:after {
@@ -125,9 +161,13 @@ div.slogan-cn:after {
     z-index: 9999;
 }
 
-
 div.lightBlue {
     background-color: #dfeef3;
+    padding: 0;
+}
+
+div.deepBlue {
+    background-color: #2e6da4;
     padding: 0;
 }
 
@@ -189,6 +229,8 @@ div.advantages:after {
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .strike > span {
@@ -228,11 +270,10 @@ div.advantages:after {
     font-weight: bold;
 }
 
-.doctors button {
-    margin-left: 10px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: #6dc6d4;
+.doctor-frame {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
 }
 
 /*hospitals*/
@@ -290,13 +331,89 @@ div.hospitals button {
 }
 
 .hospital-left {
-    margin: 40px;
     z-index: 999;
 }
 
 .hospital-left img {
     width: 100%;
     height: auto;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+@-webkit-keyframes fadeInRightBig {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(2000px, 0, 0);
+        transform: translate3d(2000px, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
 }
 
 /*news and medias*/
@@ -415,7 +532,11 @@ div.qr p {
 }
 
 div.qr img {
-    width: 60%;
+    width: 40%;
     display: block;
     margin: auto;
+}
+
+.table-hover:hover {
+    cursor: pointer;
 }
